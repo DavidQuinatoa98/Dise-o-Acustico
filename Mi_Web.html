@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Estudios Acústicos</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f3f8f7;
+        margin: 0;
+        padding: 0;
+        color: #222;
+      }
+
+      h1, h2 {
+        text-align: center;
+        margin-top: 2rem;
+        color: #023047;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        gap: 20px;
+        background-color: #219ebc;
+        margin: 0;
+      }
+
+      nav ul li {
+        padding: 1rem;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      section {
+        padding: 2rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      section img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 1rem;
+      }
+
+      .galeria {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .galeria img {
+        max-width: 280px;
+        max-height: 200px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0, 255, 224, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .galeria img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 255, 224, 0.6);
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 2rem auto;
+      }
+
+      form label {
+        margin-top: 1rem;
+      }
+
+      form input,
+      form textarea {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 0.5rem;
+      }
+
+      form button {
+        margin-top: 1rem;
+        padding: 0.75rem;
+        background-color: #219ebc;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background-color: #126782;
+      }
+
+      footer {
+        background-color: #023047;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <h1>Diseño de Estudios y Salas Acústicas</h1>
+  <nav>
+    <ul>
+      <li><a href="#introduccion">Inicio</a></li>
+      <li><a href="#principios">Principios Acústicos</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="introduccion">
+    <h2>¿Por qué es importante el diseño acústico?</h2>
+    <p>La acústica y el diseño interior están íntimamente relacionados, ya que ambos juegan un papel crucial en la creación de espacios que sean estéticamente agradables, funcionales y acústicamente confortables. El diseño acústico de estudios y salas garantiza una experiencia sonora óptima. Desde grabaciones profesionales hasta espacios de ensayo, una buena acústica marca la diferencia entre ruido y claridad.
+      Aquí hay algunas consideraciones clave sobre cómo la acústica y el diseño interior se complementan:</p>
+           <li><strong>Integración temprana de la acústica en el diseño:</strong> La acústica debe ser considerada desde el inicio del diseño arquitectónico para evitar problemas posteriores y mejorar tanto la funcionalidad como la estética del espacio. Además, las técnicas de simulación computacional puede complementar los materiales tradicionales para lograr un control acústico más preciso y adaptado a las necesidades específicas de cada espacio.</li>
+      <li><strong>Selección y uso de materiales:</strong> Los materiales utilizados en el diseño interior pueden tener un gran impacto en la calidad acústica de un espacio. Es importante elegir materiales que ayuden a controlar la reverberación del sonido, como alfombras, cortinas gruesas, paneles acústicos y revestimientos de paredes absorbentes.</li>
+      <li><strong>Integración de tecnología de audio:</strong> La tecnología también puede desempeñar un papel importante en el diseño interior acústico. La integración de sistemas de control de sonido y audio, como altavoces empotrados y sistemas de sonido envolvente, puede permitir una distribución uniforme del sonido en el espacio, mejorando así la experiencia auditiva de los ocupantes.</li>
+      <li><strong>Impacto en la salud y el bienestar:</strong> Un buen diseño acústico no solo mejora la comunicación y la concentración, sino que también tiene un impacto positivo en el estado físico y psicológico de las personas, aumentando el bienestar de los usuarios.</li>
+    </ul>
+    <img src="https://res.cloudinary.com/dwdq25ndz/image/upload/v1747284488/Estudio_de_grabacion_wdemsn.jpg" alt="Estudio de grabación">
+  </section>
+
+  <section id="principios">
+    <h2>Principios del Diseño Acústico</h2>
+         <li><strong>Aislamiento acústico:</strong> Es el conjunto de materiales, técnicas y tecnologías desarrolladas para aislar o atenuar el nivel sonoro en un determinado espacio. Se suele lograr con la actuación sobre las paredes y de las ventanas.</li>
+      <li><strong>Tratamiento acústico:</strong> Busca optimizar el sonido dentro de una habitación. Mientras que el aislamiento acústico busca evitar que el ruido del exterior de una habitación se propague hacia ella.</li>
+      <li><strong>Forma y dimensiones:</strong> Son cruciales para lograr una calidad de sonido óptima en un espacio. Se considera que las formas rectangulares son preferibles por su comportamiento predecible de las ondas sonoras. La proporción áurea, o relación phi, puede usarse para lograr dimensiones que optimicen la acústica, con una altura, ancho y largo que estén en relación. Por ejemplo, se usar para evitar ondas estacionarias y resonancias no deseadas.</li>
+      <li><strong>Materiales adecuados:</strong> Se pueden utilizar materiales absorbentes como lanas minerales, espumas acústicas, paneles de yeso, corcho y alfombras, así como materiales reflectantes como madera, acero y vidrio. La elección del material dependerá del tipo de sonido que se quiera controlar (reverberación, reflexión, etc.) y del espacio donde se aplica.</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería de Diseños</h2>
+    <div class="galeria">
+      <img src="https://res.cloudinary.com/dwdq25ndz/image/upload/v1747284726/Estudio_de_grabacion_A_uzpax5.jpg" alt="Estudio A" />
+      <img src="https://res.cloudinary.com/dwdq25ndz/image/upload/v1747284846/Panel_Acustico_iev7d4.png" alt="Panel difusor acústico" />
+      <img src="https://res.cloudinary.com/dwdq25ndz/image/upload/v1747284936/Cabina_de_grabacion_melx04.jpg" alt="Cabina de grabación" />
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form id="form-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="respuesta"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Diseño Acústico Pro. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
