@@ -108,3 +108,85 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode nav ul {
+  background-color: #333;
+}
+
+body.dark-mode footer {
+  background-color: #000;
+}
+
+body.dark-mode a {
+  color: #90e0ef;
+}
+
+body.dark-mode form input,
+body.dark-mode form textarea {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border-color: #555;
+}
+
+body.dark-mode form button {
+  background-color: #008891;
+}
+
+#toggle-dark-mode {
+  padding: 10px 20px;
+  background-color: #219ebc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#toggle-dark-mode:hover {
+  background-color: #126782;
+}
+
+body.dark-mode h1,
+body.dark-mode h2 {
+  color: #00bcd4;
+}
+
+modo-boton {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 10px 20px;
+  background-color: #219ebc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  z-index: 9999;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.modo-boton:hover {
+  background-color: #126782;
+}
+
+.navbar {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+}
+
+body.dark-mode .navbar a,
+body.dark-mode .navbar-brand {
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .navbar a:hover {
+  color: #90caf9 !important;
+}
